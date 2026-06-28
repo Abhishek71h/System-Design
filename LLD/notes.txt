@@ -21,3 +21,7 @@ How to detect if SRP is not fulfilled??
 if there is lot of request, response, db interaction then these function are called Monster Function).
 --> Common/Utils folder
 --> Too much if else
+
+
+## Open Closed Principle
+A class should be open for Extension but Closed for modification.
