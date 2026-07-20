@@ -55,8 +55,8 @@ code but cannot guarantee it.
 
 ## Definition
 
-Ensures that only **one object** of a class exists throughout the
-application.
+It Ensures that a class has only **one instance** and provide a global access
+to it.
 
 ## Real-life Examples
 

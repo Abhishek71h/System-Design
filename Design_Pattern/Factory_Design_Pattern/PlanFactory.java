@@ -1,4 +1,4 @@
-package Design_Pattern.Factory_Pattern;
+package Design_Pattern.Factory_Design_Pattern;
 
 public class PlanFactory {
     
