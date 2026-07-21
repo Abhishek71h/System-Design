@@ -14,7 +14,7 @@ public class Main {
         // Tell that to our Director i.e. Civil Engineer
         CivilEngineer engineer = new CivilEngineer(iglooBuilder);
 
-        // emgineer starts constructing house
+        // engineer starts constructing house
         engineer.constructHouse();
 
         // house creation done, just fetch the house
