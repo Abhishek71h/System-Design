@@ -1,0 +1,32 @@
+package Design_Pattern.Builder_Design_Pattern.Builders;
+
+import Design_Pattern.Builder_Design_Pattern.Product.House;
+
+public class TreeHouseBuilder implements HouseBuilder{
+    
+    private House house;
+
+    public TreeHouseBuilder() {
+        this.house = new House();
+    }
+
+    public void buildBasement() {
+        house.setBasement("Wooden Poles");
+    }
+
+    public void buildStructure() {
+        house.setStructure("Wood and Ice");
+    }
+
+    public void buildInterior() {
+        house.setInterior("Fire Wood");
+    }
+
+    public void buildRoof() {
+        house.setRoof("Wood, caribou and seal skins");
+    }
+
+    public House getHouse() {
+        return this.house;
+    }
+}
